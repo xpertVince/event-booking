@@ -1,0 +1,10 @@
+PUT http://localhost:8080/events/6
+Content-type: application/json
+authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3QzQGV4YW1wbGUuY29tIiwiZXhwIjoxNzA4MjAxODQwLCJ1c2VySWQiOjN9.p00m3tV-HjxTH-r_7UUxeGUM0k5HShqH3Fym3LbsSxo
+
+{
+    "name": "2 Vincent Updated",
+    "description": "Vincent's test event",
+    "location": "Los Angeles",
+    "dateTime": "2024-02-14T11:30:00.000Z"
+}

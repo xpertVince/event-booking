@@ -1,0 +1,10 @@
+POST http://localhost:8080/events
+Content-type: application/json
+authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAZXhhbXBsZS5jb20iLCJleHAiOjE3MDgzMDMzMzYsInVzZXJJZCI6MX0.YkdDhvpeV753IpWG7cjKsnvj2vSaCAXwkEZNGBsrJjQ
+
+{
+    "name": "TikTok",
+    "description": "Onboarding",
+    "location": "San Jose",
+    "dateTime": "2025-01-01T15:30:00.000Z"
+}
